@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Button
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/stepper_back"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentLeft="true"
+    android:text="@string/stepper_back"
+    android:drawableLeft="@drawable/ic_action_left"
+    style="@android:style/Widget.Material.Button.Borderless"
+    android:textColor="@android:color/secondary_text_light"
+    android:paddingLeft="0dp"/>

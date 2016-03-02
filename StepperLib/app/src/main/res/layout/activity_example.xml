@@ -1,0 +1,43 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/darker_gray"
+    tools:context=".ExampleActivity">
+
+    <include layout="@layout/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"/>
+
+    <Toolbar
+        android:id="@+id/step_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toolbar"
+        android:background="@android:color/white"
+        android:titleTextAppearance="@android:style/TextAppearance.Material.Widget.ActionBar.Subtitle"
+        android:titleTextColor="@android:color/black"
+        android:elevation="4dp"></Toolbar>
+
+    <FrameLayout
+        android:id="@+id/stepper_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/step_toolbar"
+        android:layout_above="@+id/stepper_bottom_toolbar"
+        android:elevation="0dp"/>
+
+    <Toolbar
+        android:id="@+id/stepper_bottom_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@android:color/white"
+        android:paddingRight="16dp">
+
+        <include layout="@layout/basic_stepper_nav" />
+
+    </Toolbar>
+</RelativeLayout>

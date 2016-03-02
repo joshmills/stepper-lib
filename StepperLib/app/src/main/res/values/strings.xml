@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Android Steppers</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Example Strings -->
+    <string name="example_steps_select_campaign_settings_title">Select campaign settings</string>
+    <string name="example_steps_select_campaign_settings_subtitle">Setup your ad campaign settings</string>
+    <string name="example_steps_create_ad_group_title">Create an ad group</string>
+    <string name="example_steps_create_ad_title">Create an ad</string>
+
+    <!-- Stepper Strings -->
+    <string name="stepper_back">back</string>
+    <string name="stepper_next">next</string>
+    <string name="example_steps_campaign_title_hint">Title</string>
+    <string name="example_steps_campaign_description_hint">Description</string>
+</resources>
