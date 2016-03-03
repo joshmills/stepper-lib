@@ -98,13 +98,7 @@ public class ExampleActivity extends Activity implements StepFragment.OnPageComp
     }
 
     private void updateStepperButtonStates() {
-        if (mStepper.getCurrentStep() == 1) {
-            mBack.setEnabled(false);
-        } else { mBack.setEnabled(true); }
-
-        if (mStepper.getCurrentStep() == mStepper.getSteps().getNumberOfSteps()) {
-            mNext.setEnabled(false);
-        } else { mNext.setEnabled(true); }
+        updateStepperButtonStates(true);
     }
 
     private void updateStepperButtonStates(boolean isComplete) {
